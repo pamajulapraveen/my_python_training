@@ -1,0 +1,10 @@
+cardist = {
+    "type" : "hatchback",
+    "year" : 2020,
+    "brand" : "hyundi",
+    "fuel" : "petrol"
+}
+print(type(cardist))
+print(cardist)
+print(cardist["year"])
+print(cardist["fuel"])
