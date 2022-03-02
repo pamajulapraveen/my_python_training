@@ -1,10 +1,13 @@
-cardist = {
-    "type" : "hatchback",
-    "year" : 2020,
-    "brand" : "hyundi",
-    "fuel" : "petrol"
-}
-print(type(cardist))
-print(cardist)
-print(cardist["year"])
-print(cardist["fuel"])
+#print prime numbers from 1 to 50
+i=1
+n=2
+m=3
+k=5
+l=7
+h=11
+while i<=50:
+    if ((i%n !=0) and (i%m !=0) and (i%k !=0) and (i%l !=0) and (i%h !=0)):
+        print(i)
+    i+=1
+    
+    output 1 13 17 19 23 29 31 37 41 43 47 
